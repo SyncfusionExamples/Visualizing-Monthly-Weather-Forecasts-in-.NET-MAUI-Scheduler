@@ -1,1 +1,1 @@
-# Visualizing-Monthly-Weather-Forecasts-in-.NET-MAUI-Scheduler
+# Visualizing Monthly Weather Forecasts in .NET-MAUI-Scheduler
