@@ -52,6 +52,7 @@
                                     SelectedItem="{Binding SelectedTemperatureUnitString, Mode=TwoWay}"
                                     IsEditable="False"
                                     IsClearButtonVisible="False"
+                                    ShowBorder="False"
                                     HeightRequest="35"
                                     HorizontalOptions="End"
                                     VerticalOptions="Center">
