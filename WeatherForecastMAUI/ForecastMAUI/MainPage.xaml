@@ -29,7 +29,7 @@
                 WidthRequest="{OnPlatform WinUI=880, MacCatalyst=880}"
                 Background="#6994BF"
                 Stroke="Transparent"
-                Padding="15">
+                Padding="10">
             <Border.StrokeShape>
                 <RoundRectangle CornerRadius="8" />
             </Border.StrokeShape>
@@ -40,7 +40,7 @@
                 <Label Grid.Column="0"
                        Text="Monthly Weather Forecast"
                        TextColor="White"
-                       FontSize="18"
+                       FontSize="{OnPlatform WinUI=18, MacCatalyst=18, Android=20, iOS=20}"
                        FontAttributes="Bold"
                        VerticalOptions="Center"
                        HorizontalOptions="Start" />
@@ -53,7 +53,6 @@
                                     IsEditable="False"
                                     IsClearButtonVisible="False"
                                     ShowBorder="False"
-                                    HeightRequest="35"
                                     HorizontalOptions="End"
                                     VerticalOptions="Center">
                     <editors:SfComboBox.Behaviors>
